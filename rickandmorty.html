@@ -4,73 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/styles.css">
-    <title>Home</title>
-
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/rickandmorty.css">
+    <title>Rick & Morty Project</title>
+    </head>
 <body>
-<header>
-    <p>Another Joke about APIs?
-        Give it a REST. Let’s Rick!</p>
-    <button class="botonAbout"><a href="./index.html">About Me</a></button>
-</header>
-<article>
-    <img src="./img/RickMorty.png" alt="RicK&Morty">
+    <header class="header">
+        <p id="parrafoheader">Another Joke about APIs? Give it a REST. Let’s Rick!</p>
+        <button id="botonabout"><a id="aButton" href="about.html">About Me</a></button>
+    </header>
     <div>
-    <h1>How Well Do You Know Rick & Morty?</h1>
-    <p>Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.
-
-    Though you can enjoy Rick and Morty simply as a zany cartoon with some crude humor, you can also dive deeper into the human condition and wrestle with the existence of god itself through these characters. So, here you can check them all!
-        </p>
-    </div>
-</article>
-<div class="navbar">
-    <nav>
-        <a id="AllCharacters" href="./rickMorty.html">All Characters</a>
-        <a id="Females" href="./rickMorty.html">Females</a>
-        <a id="Males" href="./rickMorty.html">Males</a>
-        <a id="Alive" href="./rickMorty.html">Alive</a>
-        <a id="DeadCharacters" href="./rickMorty.html">Dead</a>
-    </nav>
-</div>
- 
-<section>
-    <p class="choose">
-    Choose any of the catergories above 
-    and learn more about Rick and Morty characters.</p>
-
-</section>
-
-<footer>
-    <div class="box-dos">
-        <p>Sofia Rojas</p>
-        <p>Psychology student & Front end developer</p>
-    </div>
-
-    <div class="box-tres">
-        <p>Useful Links</p>
-        <li>
-            <a href="./index.html">Home</a>
-            <a href="./About.html">About</a>
-            <a href="./Experience.html">Experience</a>
-            <a href="./Contact.html">Contact</a>
-        </li>
+        <div class="div-uno">
+            <img  src="./img/rick&m.png" alt="Rick & Morty">
+            <span>
+                <h2 id="tituloprincipal">How Well Do You Know Rick & Morty?</h2>
+                <p id="parraforickmorty">Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.
+                <br>
+                <br>
+                Though you can enjoy Rick and Morty simply as a zany cartoon with some crude humor, you can also dive deeper into the human condition and wrestle with the existence of god itself through these characters. So, here you can check them all!</p>
+            </span>
         </div>
-    <div class="box-tres">
-        <p>Social Media</p>
-        <li>
-            <a href="https://www.linkedin.com">LinkedIn</a>
-            <a href="https://github.com/">Github</a>
-            <a href="https://www.instagram.com/">Instagram</a>
-        </li>
     </div>
-    <div class="box-tres">
-        <p>Hire Me</p>
-        <p>Enter your email to get my portafolio and CV</p>
+    <div class="div-dos">
+        <nav>
+            <ul id="listahorizontal">
+                <li class="listadeitems" id="buttonAll"><a href="#">All Characters</a></li>
+                <li class="listadeitems" id="buttonFemales"><a href="#">Females</a></li>
+                <li class="listadeitems" id="buttonMales"><a href="#">Males</a></li>
+                <li class="listadeitems" id="buttonAlive"><a href="#">Alive</a></li>
+                <li class="listadeitems" id="buttonDead"><a href="#">Dead</a></li>
+            </ul>
+        </nav>
+    </div>
 
-        <input class="write-email"  type="text" placeholder="Write your email">
-        <a class="send-email" href="/index.html"><img src="./img/Vector (1).svg" alt=""></a>
-    </div>
-</footer>
+    <footer>
+        <div>
+            <span id="nombre-blanco"> Sofia Rojas</span>
+            <div id="letraBlanca">Psychology student & Front end developer junior</div>
+        </div>
+        <div>
+            <span Class="titulosfooter">Useful Links</span>
+            <ul>
+                <li class="listafooter"><a href="./index.html">Home</a></li>
+                <li class="listafooter"><a href="./about.html">About</a></li>
+                <li class="listafooter"><a href="./experience.html">Experience</a></li>
+                <li class="listafooter"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div>
+            <span Class="titulosfooter"> Social Media</span>
+            <ul>
+                <li class="listafooter"><a href="www.linkedin.com/in/" target="_blank">Linkedin</a></li>
+                <li class="listafooter"><a href="https://github.com/"target="_blank">Github</a></li>
+                <li class="listafooter"><a href="https://www.Instagram.com/"target="_blank">Instagram</a></li>
+            </ul>   
+        </div>
+        <div>
+            <div id="letraBlanca" class= "hireme">  Hire Me </div>
+            <div id="letraBlanca" class="listafooter">Visit my LinkedIn account!</div> 
+        </div>
+
+    </footer>
+    <script src="./js/rm.js"></script>
+
 </body>
 </html>

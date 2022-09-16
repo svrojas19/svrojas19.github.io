@@ -21,6 +21,7 @@ button{
     justify-content: center;
     margin-top: 12px;
 }
+
 #Amarillo {
     color: #FFB742;
     text-decoration: underline;
@@ -113,6 +114,7 @@ width: 1440px;
 height: 470px;
 left: 4px;
 top: 926px;
+background-color: #0b0d0f;
 }
 a:hover {
     color: #FFB742;
@@ -187,30 +189,4 @@ footer div li {
     background-color: #0b0d0f;
     border-style: none;
     margin-top: 16px;
-}
-/*light mode style*/ 
- .bodychange-mode {
-    padding: 10px;
-    background-color: white;
-    font-family: "Poppins";
-    color: black;
-    justify-content: center;
- }
- .greetingchange-mode{
-    font-weight: 700;
-    font-size: 32px;
-    color: black;
-  }
-.titlechange-mode{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    text-align: center;  
-    color: black;  
-}
-.work-easierchange-mode{
-    font-style: normal;
-    font-weight: 100;
-    font-size: 24px;
-    color: black;
 }

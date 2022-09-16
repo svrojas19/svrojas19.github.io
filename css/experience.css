@@ -20,6 +20,7 @@ button{
     font-weight: bold;
     justify-content: center;
     margin-top: 12px;
+    
 }
  
 ul {
@@ -117,9 +118,14 @@ p.company.a {
 /* Footer*/
 
 footer {
-   
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    width: 1440px;
+    height: 470px;
+    left: 4px;
+    top: 926px;
+    background-color: #0b0d0f;
 }
 a:hover {
     color: #FFB742;

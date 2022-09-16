@@ -5,8 +5,8 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background: #212529;
-    color: #FFFFFF;
+    background: #FFFFFF;
+    color: black;
     width: 1440px;
     
     }
@@ -21,6 +21,7 @@ button{
     justify-content: center;
     margin-top: 12px;
 }
+
 #Amarillo {
     color: #FFB742;
     text-decoration: underline;
@@ -37,6 +38,206 @@ header {
     justify-content: space-between;
 }
 
+/* primera pagina*/
+
+section {
+    font-family: 'Inter', sans-serif;
+}
+section span {
+    display: flex;
+    border-radius: 24px;
+}
+.greeting{
+    font-weight: 700;
+    font-size: 32px;
+  }
+.title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;    
+}
+.work-easier{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+}
+.presentation{
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+   }
+.box-uno {
+    background: #292B2E;
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    }
+.box-uno img:nth-child(1) {
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+    }
+.flecha {
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+.text {
+    display: block;
+    text-align: center;    
+}
+.text p:nth-child(1){
+    color: #FFB742;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 10px;
+    }
+.text p:nth-child(2){
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/*About*/
+section{
+    padding: 20px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.sectionabout{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+
+}
+.whoiam{
+    color: #FFB742;
+    background-color: #292b2e;
+    border-radius: 16px;
+    width: 148px;
+    height: 32px;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.aboutme{
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.p .profile{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1000px;
+    line-height: 30px;
+    color: #d4d4d4;
+    width: 700px;
+}
+.hire-me{
+        background-color: #FFB742;
+        border-radius: 50px;
+        height: 54px;
+        width: 121px;
+        padding: 5px;
+        border-style: none;
+        font-weight: bold;
+        justify-content: center;
+        margin-top: 12px;
+}
+
+/*experience*/ 
+
+.experience {
+    color: #FFB742;
+    background-color: #292B2E;
+    border-radius: 16px;
+    width: 148px;
+    height: 32px;
+    gap: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    align-content: center;  
+    margin-left: 640px;
+    }
+.practice {
+    margin-left: 496px;
+    padding: 24px;
+    width: 494px;
+    height: 49px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.experience1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.experiencebox {
+    background-color: #FFFFFF;
+    color: #0b0d0f;
+    align-items: center;
+    width: 380px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 10px;    
+ }
+.title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+    width: 144px;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.company {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    width: 117px;
+    height: 48px;
+    padding: 24px;
+    margin-left: -16px;
+    margin-bottom: 10px;
+}
+p.company.a {
+    color:#FFB742;
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    margin-top: -108px;
+    margin-left: 240px;
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    background-color: #cccccc;
+}
+.description{
+    width: 304px;
+    height: 350px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
 /*jokes*/
 .principalJokes{
     height: 450px;
@@ -155,8 +356,8 @@ header {
     
     }
     
-
 /* Footer*/
+
 footer {
 display: flex;
 justify-content: space-between;
@@ -166,7 +367,7 @@ height: 470px;
 left: 4px;
 top: 926px;
 background-color: #0b0d0f;
-    }
+}
 a:hover {
     color: #FFB742;
 }
@@ -241,44 +442,3 @@ footer div li {
     border-style: none;
     margin-top: 16px;
 }
-
-/*light mode style*/ 
-.bodychange-mode {
-    padding: 10px;
-    background-color: white;
-    font-family: "Poppins";
-    color: black;
-    justify-content: center;
- }
- .jokesboxchange-mode{
-    
-    background-color:#212529;
-    color:white;
-    width: 300px;
-    height: auto;
-    align-items: center;
-    height: 200px;
-    border-radius: 8px;   
-    margin-left: 550px;
-}
- .infocontactochange-mode{
-    display: flex;
-    border-radius: 12px;
-    height: 30px;
-    width: 300px;
-    color:black;
-    margin-left: 250px;
-    background-color: #FFFFFF;
-    justify-content: space-between;
-
-}
-.contactsmilechange-mode {
-    margin-left: 496px;
-    padding: 24px;
-    width: 494px;
-    height: 49px;
-    font-family: sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    color: #0b0d0f;
-    }

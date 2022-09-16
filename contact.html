@@ -17,19 +17,21 @@
             <a href="./Experience.html">Experience</a>
             <a href="./Contact.html">Contact</a>
         </nav>
-        <button id="change-mode"><a> Change Mode </a></button>
+        <button class="change-mode"><a> Change Mode </a></button>
     </header>
 
     <section class="sectioncontact">
         <div class="principalJokes">
-            <p class="contactme">SMILE!</p>
-            <p class="contactsmile">Contact Me, or... Smile!</p>
-            <div class="jokesbox"> 
-                <p class="titulocargo">Geek Jokes!</p>
-                <p id="texto-inicial" class="textjokes">Computers make very fast, very accurate mistakes.</p>
-                <p class="textjokes" id="texto-respuesta"></p>
+            <h5 class="smiletitle">SMILE!</h5>
+            <p class="readjoke">Let's read a dad joke lol</p>
+            <div class="jokesbox" id="cajachiste"> 
+            <div id="chiste"></div>
+            <div id="respuesta"></div>
+                <p class="textoschistes" id="textjokes"></p>
             </div>
-         <input id="Uno-mas" value="One More!" class="oneMore-send" href=""></input>
+        <div class="botonchiste">
+      <button id="onemore">One more</button>
+       </div>
         </div>
 
         <p class="contactme">CONTACT ME</p>
@@ -44,9 +46,9 @@
                 <div>
                     <input class="infocontacto"  type="text" placeholder="Phone number">
                 </div>
-            </div>   
+                <button class="buttonsend" href="./index.html">Send</button>   
+            </div>
         </div>
-        <a class="contact-send" href="./index.html">Send</a>
      </section>
 
     <footer>
@@ -80,5 +82,6 @@
             <a class="send-email" href="/index.html"><img src="./img/Vector (1).svg" alt=""></a>
         </div>
     </footer>
+    <script src="./js/joke.js"></script>
     </body>
     </html>
