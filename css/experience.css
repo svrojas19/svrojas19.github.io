@@ -95,8 +95,11 @@ header {
     margin-bottom: 10px;
 }
 p.company.a {
-    color:#FFB742;
+  color:#FFB742;
     text-decoration: none;
+}
+#wwcodemedellin{
+    color:#FFB742;
 }
 .logo{
     position: absolute;
@@ -114,6 +117,9 @@ p.company.a {
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+}
+.rickmorty{
+    color:#FFB742;
 }
 /* Footer*/
 
