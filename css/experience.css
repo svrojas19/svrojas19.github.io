@@ -10,7 +10,7 @@ body {
     width: 1440px;
     
     }
-button{
+#changemode{
     background-color: #FFB742;
     border-radius: 50px;
     height: 54px;
@@ -206,54 +206,4 @@ footer div li {
     background-color: #0b0d0f;
     border-style: none;
     margin-top: 16px;
-}
-
-/*light mode style*/ 
-.bodychange-mode {
-    padding: 10px;
-    background-color: white;
-    font-family: "Poppins";
-    color: black;
-    justify-content: center;
- }
-
- .titlechange-mode{
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 34px;
-    width: 144px;
-    height: 34px;
-    margin-bottom: 10px;
-    color: #FFFFFF;
-}
-.experienceboxchange-mode{
-    background-color:#212529;
-    color:#FFFFFF;
-    align-items: center;
-    width: 380px;
-    height: 500px;
-    border-radius: 16px;
-    margin: 10px;    
- }
- .companychange-mode {
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 34px;
-    width: 117px;
-    height: 48px;
-    padding: 24px;
-    margin-left: -16px;
-    margin-bottom: 10px;
-    color: #FFFFFF;
-}
-.descriptionchange-mode{
-    width: 304px;
-    height: 350px;
-    font-family: 'Poppins';
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 34px;
-    color: #FFFFFF;
 }

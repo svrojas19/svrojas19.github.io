@@ -10,7 +10,7 @@ body {
     width: 1440px;
     
     }
-button{
+#changemode{
     background-color: #FFB742;
     border-radius: 50px;
     height: 54px;
@@ -171,27 +171,4 @@ footer div li {
     background-color: #0b0d0f;
     border-style: none;
     margin-top: 16px;
-}
-/*light mode style*/ 
-.bodychange-mode {
-    padding: 10px;
-    background-color: white;
-    font-family: "Poppins";
-    color:#0b0d0f;
-    justify-content: center;
- }
-
- .aboutmechange-mode{
- font-family: 'poppins';
-font-weight: 700;
-font-size: 48px;
-color: #0b0d0f;
-}
-.p .profilechange-mode{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1000px;
-    line-height: 30px;
-    color:white;
-    width: 700px;
 }
