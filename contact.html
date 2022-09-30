@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="./CSS/contact.css">
     <title>Contact</title>
 </head>
-<script src="./js/changemode.js"></script>
-<body>
-    <<header>
+    <body class="body">
+        <header>
         <img src="./img/Frame 7.svg" alt="">
         <nav>
-            <a href="./index.html">Home</a>
-            <a href="./About.html">About</a>
-            <a href="./Experience.html">Experience</a>
-            <a href="./Contact.html">Contact</a>
+            <ul>
+                <a class="nav1" href="./index.html">Home</a>
+                <a class="nav1"  href="./About.html" >About</a>
+                <a class="nav1"  href="./Experience.html">Experience</a>
+                <a class="nav1"  href="./Contact.html">Contact</a>
+            </ul>
         </nav>
-        <button id="changemode">Change Mode </button>
+        <button id="changemode"> Change Mode</button>
     </header>
 
     <section class="sectioncontact">
@@ -25,8 +26,8 @@
             <h5 class="smiletitle">SMILE!</h5>
             <p class="readjoke">Let's read a bad joke lol</p>
             <div class="jokesbox" id="cajachiste"> 
-            <div id="chiste"></div>
-            <div id="respuesta"></div>
+            <div id="chiste" class="text"></div>
+            <div id="respuesta" class="text"></div>
                 <p class="textoschistes" id="textjokes"></p>
             </div>
         <div class="botonchiste">
@@ -34,54 +35,50 @@
        </div>
         </div>
 
-        <p class="contactme">CONTACT ME</p>
         <div class="cajacontact">
-    <div class="datoscontacto">
-                <div>
-                    <input class="infocontacto"  type="text" placeholder="Name">
-                </div>
-                <div>
-                    <input class="infocontacto"  type="text" placeholder="Email address">
-                </div>
-                <div>
-                    <input class="infocontacto"  type="text" placeholder="Phone number">
-                </div>
-                <button class="buttonsend" href="./index.html">Send</button>   
-            </div>
-        </div>
+        <p class="contactme">CONTACT ME</p>
+    <form class="datoscontacto">
+    <input class="input"  type="text" placeholder="Name">
+    <input class="input"  type="text" placeholder="Email address">
+    <input class="input"  type="text" placeholder="Phone number">
+    <button class="buttonsend" href="./index.html">Send</button>   
+    </div>
+    </form>
      </section>
 
     <footer>
         <div class="box-dos">
-            <p>Sofia Rojas</p>
-            <p>Psychology student & Front end developer</p>
+            <p class="textos">Sofia Rojas</p>
+            <p class="textos">Psychology student & Front end developer junior</p>
         </div>
     
         <div class="box-tres">
-            <p>Useful Links</p>
+            <p class="textos">Useful Links</p>
             <li>
-                <a href="./index.html">Home</a>
-                <a href="./About.html">About</a>
-                <a href="./Experience.html">Experience</a>
-                <a href="./Contact.html">Contact</a>
+                <a class="nav1"  href="./index.html">Home</a>
+                <a class="nav1"  href="./About.html" >About</a>
+                <a class="nav1"  href="./Experience.html">Experience</a>
+                <a class="nav1"  href="./Contact.html">Contact</a>
             </li>
             </div>
         <div class="box-tres">
-            <p>Social Media</p>
+            <p class="textos">Social Media</p>
             <li>
-                <a href="https://www.linkedin.com">LinkedIn</a>
-                <a href="https://github.com/">Github</a>
-                <a href="https://www.instagram.com/">Instagram</a>
+                <a class="nav" href="https://www.linkedin.com">LinkedIn</a>
+                <a class="nav"href="https://github.com/">Github</a>
+                <a  class="nav"href="https://www.instagram.com/">Instagram</a>
             </li>
         </div>
         <div class="box-tres">
-            <p>Hire Me</p>
-            <p>Enter your email to get my portafolio and CV</p>
+            <p class="textos">Hire Me</p>
+            <p class="textos">Enter your email to get my portafolio and CV</p>
+    
     
             <input class="write-email"  type="text" placeholder="Write your email">
             <a class="send-email" href="/index.html"><img src="./img/Vector (1).svg" alt=""></a>
         </div>
     </footer>
     <script src="./js/joke.js"></script>
+    <script src="./js/changemode.js"></script>
     </body>
     </html>

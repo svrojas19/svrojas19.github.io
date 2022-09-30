@@ -5,13 +5,13 @@
     padding: 8px;
 
 }
-body {
+.body {
     font-family: 'Poppins', sans-serif;
     background: #212529;
-    color: #FFFFFF;
     width: 1440px;
     
     }
+        
  #changemode{
     background-color: #FFB742;
     border-radius: 50px;
@@ -33,13 +33,17 @@ ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    }
+}
 header {
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
 }
-
+.nav1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
 /* primera pagina*/
 
 section {
@@ -52,17 +56,20 @@ section span {
 .greeting{
     font-weight: 700;
     font-size: 32px;
+    color: #FFFFFF;
   }
 .title{
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    text-align: center;    
+    text-align: center; 
+    color: #FFFFFF;   
 }
 .work-easier{
     font-style: normal;
     font-weight: 100;
     font-size: 24px;
+    color: #FFFFFF;
 }
 .presentation{
     text-align: center;
@@ -104,7 +111,9 @@ section span {
     font-weight: 700;
     font-size: 16px;
 }
-
+.textos{
+    color:#FFFFFF
+}
 /* Footer*/
 
 footer {
@@ -120,7 +129,7 @@ background-color: #0b0d0f;
 a:hover {
     color: #FFB742;
 }
-a {
+.nav{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -190,8 +199,21 @@ footer div li {
     background-color: #0b0d0f;
     border-style: none;
     margin-top: 16px;
+} 
+/*light mode*/
+.cambiarmodo{
+    background-color: #FFFFFF;
+}
+.navnegro{
+    color: #0b0d0f;
+}
+.greetingnegro{
+    color: #0b0d0f;
 }
 
-
-    
-
+.titlenegro{
+    color:#0b0d0f;   
+}
+.work-easiernegro{
+    color:#0b0d0f;
+}

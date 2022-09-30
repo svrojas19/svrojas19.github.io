@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&family=Work+Sans:wght@500;700&display=swap');
 * {
-    margin: 0px;
+    margin: 8px;
     padding: 8px;
+
 }
-body {
+.body {
     font-family: 'Poppins', sans-serif;
     background: #212529;
-    color: #FFFFFF;
     width: 1440px;
     
     }
-#changemode{
+        
+ #changemode{
     background-color: #FFB742;
     border-radius: 50px;
     height: 54px;
@@ -20,18 +21,27 @@ body {
     font-weight: bold;
     justify-content: center;
     margin-top: 12px;
-    
 }
- 
+
+#Amarillo {
+    color: #FFB742;
+    text-decoration: underline;
+    display: inline;
+    }
 ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    }
+}
 header {
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
+}
+.nav1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
 }
 
 /*experience*/
@@ -59,6 +69,7 @@ header {
     font-family: sans-serif;
     font-size: 40px;
     font-weight: 700;
+    color: #FFFFFF;
 }
 .experience1 {
     display: flex;
@@ -74,7 +85,7 @@ header {
     border-radius: 16px;
     margin: 10px;    
  }
-.title{
+.titulos{
     font-family: 'Poppins';
     font-weight: 700;
     font-size: 20px;
@@ -82,14 +93,14 @@ header {
     width: 144px;
     height: 34px;
     margin-bottom: 10px;
+    color: #0b0d0f;
 }
 .company {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
     line-height: 34px;
-    width: 117px;
-    height: 48px;
+    height: 8px;
     padding: 24px;
     margin-left: -16px;
     margin-bottom: 10px;
@@ -98,18 +109,28 @@ p.company.a {
   color:#FFB742;
     text-decoration: none;
 }
+.company{
+    color: #0b0d0f;
+}
 #wwcodemedellin{
     color:#FFB742;
 }
-.logo{
+.logowwcode{
+    position: absolute;
+    margin-top: -108px;
+    margin-left: 240px;
+    width: 100px;
+    height: 100px;
+}
+.logo-logo{
     position: absolute;
     margin-top: -108px;
     margin-left: 240px;
     width: 100px;
     height: 100px;
     border-radius: 75px;
-    background-color: #cccccc;
 }
+
 .description{
     width: 304px;
     height: 350px;
@@ -117,6 +138,7 @@ p.company.a {
     font-weight: 400;
     font-size: 20px;
     line-height: 34px;
+    color: #0b0d0f;
 }
 .rickmorty{
     color:#FFB742;
@@ -140,7 +162,9 @@ a {
     color: #FFFFFF;
     text-decoration: none;
 }
-
+.textos{
+    color:#FFFFFF
+}
 footer div li {
     display: block;
     list-style: none;
@@ -207,3 +231,34 @@ footer div li {
     border-style: none;
     margin-top: 16px;
 }
+/*light mode*/
+.cambiarmodo{
+    background-color: #FFFFFF;
+}
+.navnegro{
+    color: #0b0d0f;
+}
+.experienceboxblack{
+    background-color: #0b0d0f;
+}
+.tituloswhite{
+    color: #FFFFFF;
+}
+
+.descriptionwhite{
+    color: #FFFFFF;
+}
+.practiceblack{
+    color: #0b0d0f;
+}
+.companywhite{
+    color: #FFFFFF;
+}
+.change-logo{
+    content: url("../img/WWCode_Medellin_White\ 1.png");
+    background-color: #0b0d0f;
+}
+.change-logo1{
+    content: url("../img/image\ 3.png");
+    background-color: #0b0d0f;
+  }

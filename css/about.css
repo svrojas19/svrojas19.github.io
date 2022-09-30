@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&family=Work+Sans:wght@500;700&display=swap');
+
 * {
-    margin: 0px;
+    margin: 8px;
     padding: 8px;
+
 }
-body {
+.body {
     font-family: 'Poppins', sans-serif;
     background: #212529;
-    color: #FFFFFF;
     width: 1440px;
     
     }
-#changemode{
+        
+ #changemode{
     background-color: #FFB742;
     border-radius: 50px;
     height: 54px;
@@ -22,30 +24,46 @@ body {
     margin-top: 12px;
 }
 
+#Amarillo {
+    color: #FFB742;
+    text-decoration: underline;
+    display: inline;
+    }
 ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    }
+}
 header {
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
 }
+.nav1{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
 /*Who I am*/
-section{
-    padding: 20px;
-    height: 1000px;
-    display: flex;
+.aboutme{
+    display:flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
 }
-.sectionabout{
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-
+.aboutme img{
+    height: 620px;
+    width: 590px;
 }
 .whoiam{
+    margin: 30px;
+    padding: 20px;
+    line-height: 30px;
+    width: 682px;
+
+}
+
+h4{
     color: #FFB742;
     background-color: #292b2e;
     border-radius: 16px;
@@ -60,20 +78,17 @@ section{
     text-align: center;
 }
 
-.aboutme{
-    font-family: 'poppins';
+.h1{
+    font-family: 'poppins',sans-serif;
     font-weight: 700;
     font-size: 48px;
+    color: white;
+}
+.text{
+color: #FFFFFF;
+font-family: 'poppins',sans-serif;
 }
 
-.p .profile{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1000px;
-    line-height: 30px;
-    color: #d4d4d4;
-    width: 700px;
-}
 .hire-me{
         background-color: #FFB742;
         border-radius: 50px;
@@ -104,6 +119,9 @@ a:hover {
 a {
     color: #FFFFFF;
     text-decoration: none;
+}
+.textos{
+    color: #FFFFFF;
 }
 
 footer div li {
@@ -171,4 +189,17 @@ footer div li {
     background-color: #0b0d0f;
     border-style: none;
     margin-top: 16px;
+}
+/*light mode*/
+.cambiarmodo{
+    background-color: #FFFFFF;
+}
+.navnegro{
+    color: #0b0d0f;
+}
+.h1black{
+    color:#0b0d0f;
+}
+.textblack{
+    color: #0b0d0f;
 }
